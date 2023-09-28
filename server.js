@@ -34,7 +34,7 @@ app.listen(6500, () => {
 });
 
 // Connect to database
-const url = "mongodb+srv://pankaj:pankaj.micromax@cluster0.1mvkcej.mongodb.net/?retryWrites=true&w=majority";
+const url = "Enter your password here";
 const params = {
     useNewUrlParser: true,
     useUnifiedTopology: true
