@@ -43,7 +43,7 @@ const params = {
 mongoose.connect(url, params)
 .then(() => console.log("Successfully connected"))
 .catch(err => {
-    console.log("Failed to connect");x``
+    console.log("Failed to connect");``
 })
 
 
@@ -65,7 +65,7 @@ async function register_contact(req, res, next){
         res.status(200).send();
     })
     .catch((error) => {
-        console.log("Error: \n" + error); 
+        console.log("Error: \n" + error);   
         res.send(400).send()
     })
 
