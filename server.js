@@ -34,7 +34,7 @@ app.listen(6500, () => {
 });
 
 // Connect to database
-const url = "Enter your password here";
+const url = "mongodb+srv://pankaj:<password>@cluster0.1mvkcej.mongodb.net/?retryWrites=true&w=majority";
 const params = {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -43,7 +43,7 @@ const params = {
 mongoose.connect(url, params)
 .then(() => console.log("Successfully connected"))
 .catch(err => {
-    console.log("Failed to connect");
+    console.log("Failed to connect");x``
 })
 
 
