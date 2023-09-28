@@ -34,7 +34,7 @@ app.listen(6500, () => {
 });
 
 // Connect to database
-const url = "mongodb+srv://pankaj:<password>@cluster0.1mvkcej.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://pankaj:pankaj.micromax@cluster0.1mvkcej.mongodb.net/?retryWrites=true&w=majority";
 const params = {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -68,5 +68,6 @@ async function register_contact(req, res, next){
         console.log("Error: \n" + error);   
         res.send(400).send()
     })
+
 
 }
